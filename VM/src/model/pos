@@ -1,0 +1,8 @@
+create_map.c:	while (i < (int)players->header->prog_size)
+create_map.c:		params->map[pc] = players->commands[i];
+create_map.c:		params->map_c[pc] = (unsigned char)players->numb;
+create_map.c:		temp_players->pos = pc;
+create_map.c:		temp_players->live = 0;
+create_map.c:		temp_players->live_amount = 0;
+create_map.c:		temp_players = temp_players->next;
+help.c:	tmpnxt = param->players->next;
